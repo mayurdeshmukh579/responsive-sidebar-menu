@@ -1,0 +1,76 @@
+body{
+    font-size: 1em;
+    background-image: url("City_Landscape_Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.side-menu{
+    width: 12em;
+    height: auto;
+    margin: 4em auto 0;
+    font-size: 1em;
+    line-height: 2em;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10em;
+
+}
+
+.side-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.side-menu li{
+    display: block;
+    background-color: #333;
+    height: 2em;
+    padding: 1em 1.5em;
+    position: relative;
+    transition: transform .5s,background-color .5s,color .5s;
+}
+
+
+.side-menu ul li:nth-child(1){
+    background-color: #EA5017;
+    border-radius: 2%;
+}
+
+.side-menu ul li:nth-child(2){
+    background-color: green;
+    border-radius: 2%;
+
+}
+
+.side-menu ul li:nth-child(3){
+    background-color: yellow;
+    border-radius: 2%;
+
+}
+
+.side-menu ul li:nth-child(4){
+    background-color: red;
+    border-radius: 2%;
+
+}
+
+.side-menu ul li:nth-child(5){
+    background-color: black;
+}
+
+.side-menu ul li:nth-child(6){
+    background-color: burlywood;
+}
+
+
+.side-menu ul li:hover{
+    background-color: #339966;
+    transform: translateX(10em);
+}
